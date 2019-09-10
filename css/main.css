@@ -42,7 +42,8 @@ main{
 #column_left{
     display:inline-block;
     width: 950px;
-    height: 600px;
+    height: auto; /*Changes made by joel -- so that all of the content can fit 
+                    and any other content will be able to fit as well */
     background-color: lightpink;
 }
 
@@ -56,9 +57,9 @@ main{
 
 .content_left{
     background-color: beige;
-    height: 270px;
+    /* Removed height: 270px */
     margin:10px;
-    padding:5px;
+    /* Removed padding: 5px */
     clear: both;
 }
 
