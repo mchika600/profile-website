@@ -3,8 +3,9 @@ body{
     flex-direction: column
 }
 header{
+    height: 150px;
     flex-grow:0;
-    background-color: lightgoldenrodyellow;
+    background-color: #E0E0E0;
 }
 
 .logo {
@@ -13,16 +14,16 @@ header{
     font-weight: bolder;
 }
 .menu{
-    margin-top: 100px;
-    background-color: lightskyblue;
-}
+    background-color: #E0E0E0;
+    }
 
 .nav_list{
     display: inline-block;
     padding: 10px;
     border: #000;
     border-style: none solid solid none;
-}
+    background-color: #78909C;
+    }
 
 .mnue_btn{
     margin-left: 30px;
@@ -42,40 +43,37 @@ main{
 #column_left{
     display:inline-block;
     width: 950px;
-    height: 600px;
     background-color: lightpink;
 }
 
 #column_right{
     display:inline-block;
     width: 350px;
-    height: 600px;
     background-color: lightseagreen;
     float: right;
 }
 
 .content_left{
-    background-color: beige;
-    height: 270px;
+    display: block;
+    background-color: #DCEDC8;
     margin:10px;
-    padding:5px;
+    padding:25px;
     clear: both;
 }
 
 .content_right{
+    display: block;
     background-color: beige;
-    height: 190px;
     margin:10px;
-    padding:5px;
+    padding:25px;
     clear: both;
 }
 
 .content_right_bottom{
     background-color: beige;
-    height: 90px;
     margin:10px;
     padding:5px;
-    clear: both;
+    
 }
 footer{
     flex-grow: 0;
@@ -86,11 +84,31 @@ footer{
     font-weight: lighter;
     text-align: end;
   }
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
 
 .image{
-    height: 30px;
-    width: 150px;
+    float: left;
+    height: 150px;
+    width: 270px;
     display: block;
     margin-top: 2px;
     padding: 5px;
 }  
+
+.image-left-column {
+    display:block;
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: 170px;
+    
+}
+
+.paragraph-format {
+    margin: 20px;
+    padding: 25px;
+}
